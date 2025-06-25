@@ -51,7 +51,7 @@ export default {
       }
 
       return new Response(JSON.stringify({
-        "Join": "https://t.me/Ashlynn_Repository",
+        "Join": "https://t.me/zerocreations",
         "response": ashlynn,
         "status": 200,
         "successful": "success"
@@ -62,7 +62,7 @@ export default {
 
     } catch (error) {
       return new Response(JSON.stringify({ 
-        "Join": "https://t.me/Ashlynn_Repository",
+        "Join": "https://t.me/zerocreations",
         "response": error.message,
         "status": 500,
         "successful": "failed"
